@@ -72,7 +72,7 @@ sudo systemctl status apache2
 ## 8. Put the Jbrowse2 Web folder into the folder `/var/www/html/`
 
 ```sh
-sudo cp -r ~/jbrowse2/ . 
+sudo cp -r ~/jbrowse2 /var/www/html
 ```
 
 ## 9. Get the IP address of your server 
@@ -117,5 +117,3 @@ Then, go to the website `http://your_ip_address`, you should see there are optio
 * [Jbrowse](https://jbrowse.org/jb2/) 
 * [nodejs.org](https://nodejs.org/en) 
 * [ChatGPT](https://chat.openai.com/) 
-
-
