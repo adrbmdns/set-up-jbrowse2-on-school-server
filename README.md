@@ -100,7 +100,7 @@ Here, we use the [Arabidopsis genome](https://www.arabidopsis.org/download/index
 ```sh
 mkdir ~/genome
 cd ~/genome
-wget wget https://www.arabidopsis.org/download_files/Genes/TAIR10_genome_release/TAIR10_chromosome_files/TAIR10_chr_all.fas.gz
+wget https://www.arabidopsis.org/download_files/Genes/TAIR10_genome_release/TAIR10_chromosome_files/TAIR10_chr_all.fas.gz
 gunzip TAIR10_chr_all.fas.gz 
 mv TAIR10_chr_all.fas TAIR10_chr_all.fa
 samtools faidx TAIR10_chr_all.fa
